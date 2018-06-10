@@ -100,12 +100,12 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    subtitle  = "Talk with our dispatch team today!"
+    buttonText = "Submit"
     email = "dispatch@3peakslogistics.com"
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = "6LeaRV4UAAAAALjleg7zYzXxJGi-q3kZ52KxlSgB"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
