@@ -50,7 +50,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "If you don't see the service you're looking for below, <a class='page-scroll' href='#contact'>contact us</a> today!"
 
     [[params.services.row]]
 
