@@ -57,37 +57,37 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-truck"
       title = "Truckload"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-truck"
       title = "Less Than Truckload"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-truck"
       title = "Regrigerated"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-truck"
       title = "Van"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-truck"
       title = "Flatbed"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-truck"
       title = "Stepdeck"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = ""
       url = "#"
 
     # About section
@@ -100,7 +100,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Talk with our dispatch team today!"
+    subtitle  = "<a href='https://www.google.com/maps/place/3+Peaks+Logistics/@45.376975,-122.754159,17z/data=!3m1!4b1!4m5!3m4!1s0x54957262a27bb61b:0x8f29e6f2d13b1c36!8m2!3d45.376975!4d-122.751965' target='_blank'>19824 SW 72nd Ave, Ste 202<br>Tualatin, Oregon</a><br><br><a href='tel:+1-503-783-2660'>503-783-2660</a>"
     buttonText = "Submit"
     email = "dispatch@3peakslogistics.com"
 
