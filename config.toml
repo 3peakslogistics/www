@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://3peakslogistics.com"
+baseurl = "https://3peakslogistics.com"
 languageCode = "en-us"
 title = "3 Peaks Logistics"
 theme = "hugo-agency-theme"
