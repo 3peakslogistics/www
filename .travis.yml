@@ -2,10 +2,19 @@ language: go
 go:
   - "1.10.x"
 
+addons:
+  apt:
+    packages:
+      - make
+      - tree
+
 install:
   - go get github.com/magefile/mage
   - go get -d github.com/gohugoio/hugo
-  - cd ${GOPATH}/src/github.com/gohugoio/hugo && mage vendor && mage install
+  - cd ${GOPATH}/src/github.com/gohugoio/hugo
+  - mage vendor
+  - mage install
+  - cd ${TRAVIS_BUILD_DIR}
 
 script:
   - hugo
@@ -17,7 +26,7 @@ script:
 #  github-token: $GITHUB_TOKEN
 #  keep-history: true
 #  local-dir: public
-#  repo: 3peakslogistics.github.io
+#  repo: 3peakslogistics/3peakslogistics.github.io
 #  committer-from-gh: true
 #  target-branch: master
 #  verbose: true
